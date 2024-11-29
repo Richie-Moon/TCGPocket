@@ -1,0 +1,32 @@
+POCKET
+
+opening cards
+- card class
+	- name
+	- number
+		- series name + ID (A1 001 is bulbasaur)
+	- HP
+	- moves
+	- abilitiy
+	- retreat
+	- type
+	- rarity
+	- weakness
+- move class
+- ability class
+
+battles
+
+
+https://github.com/tcgdex/cards-database/blob/master/data/Pok%C3%A9mon%20TCG%20Pocket/Promos-A.ts
+https://api.tcgdex.net/v2/graphql
+
+{
+  cards(filters: { id: "P-A" }) {
+    name
+    id
+  }
+}
+
+https://dgraph.io/docs/graphql/queries/search-filtering/
+https://github.com/tcgdex/python-sdk
